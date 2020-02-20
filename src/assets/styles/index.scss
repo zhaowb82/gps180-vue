@@ -1,0 +1,17 @@
+@import './_reset.scss';
+@import './_variables.scss';
+@import './transition';
+@import './z-table.scss';
+
+.menu-drawer {
+  background-color: #545c64;
+
+  .el-drawer__header {
+    padding: 20px !important;
+    margin-bottom: 0 !important;
+  }
+
+  .el-menu {
+    border: none;
+  }
+}

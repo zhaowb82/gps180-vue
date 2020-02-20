@@ -1,0 +1,69 @@
+.z-table {
+  &-control {
+    margin-bottom: 20px;
+
+    .right {
+      float: right;
+    }
+
+    .el-col {
+      margin-bottom: 20px;
+    }
+
+    >:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &-filter {
+    margin-bottom: 20px;
+
+    .label {
+      font-size: 14px;
+    }
+  }
+
+  .z-filter-area {
+    .z-filter-item {
+      // width: 350px;
+      margin-bottom: 16px;
+
+      .label {
+        display: inline-table;
+        width: 112px;
+        font-size: 14px;
+        font-weight: bold;
+        padding-right: 16px;
+        color: #a7afba;
+        text-align: right;
+      }
+
+      .value {
+        font-size: 14px;
+        color: #383838;
+      }
+
+      &.short {
+        width: auto;
+      }
+
+      .el-checkbox {
+        line-height: 34px;
+      }
+
+    }
+
+    .z-filter-button-zone {
+      margin-bottom: 16px;
+      padding-left: 112px;
+    }
+  }
+
+  &-footer {
+    margin-top: 20px;
+
+    .pagination {
+      text-align: right;
+    }
+  }
+}
