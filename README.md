@@ -1,7 +1,15 @@
 
-# GPS180 服务器平台 Vue
+# GPS180 服务器平台 Vue版
 
-该项目为前后端分离项目，后端项目地址：[`gps180`](https://gitee.com/wibim/gps180)。
+该项目为前后端分离项目，此项目为前端
+
+后端项目地址：[`gps180 gitee`](https://gitee.com/wibim/gps180)
+
+后端项目地址：[`gps180 github`](https://github.com/zhaowb82/gps180)
+
+前端项目地址：[`gps180-vue gitee`](https://gitee.com/wibim/gps180-vue)
+
+前端项目地址：[`gps180-vue github`](https://github.com/zhaowb82/gps180-vue)
 
 ## 联系QQ群：1053077770
 
@@ -13,7 +21,9 @@
 ### 项目演示
 
 **演示地址：**
-- [http://wibim.vicp.net:8089/](http://wibim.vicp.net:8089/)
+- 电脑端：[http://wibim.vicp.net:8089/](http://wibim.vicp.net:8089/)
+
+- 手机端下载(flutter开发中）：![](./doc/pic/appdown.png)
 
 **账号密码：**
 
@@ -27,13 +37,15 @@
 
 - wibim.vicp.net : 6868
 
+- 可下载Android端测试APP进行模拟GPS上报测试 [`gps模拟器`](https://gitee.com/wibim/gps_simulator)
+
 **支持协议：**
 
 - jt808、天琴、博实结、康凯斯、谷米、32960
 
 ### 本项目源商用管车SaaS演示
 
-**电脑端：** [https://biz.ccwcar.com/](https://biz.ccwcar.com)
+**电脑端：** [https://biz.ccwcar.com/](https://biz.ccwcar.com/)
 
 **纯GPS端：** [https://gps.ccwcar.com/](https://gps.ccwcar.com/)
 
