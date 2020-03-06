@@ -5,9 +5,9 @@
       <bm-map-type :map-types="['BMAP_NORMAL_MAP', 'BMAP_HYBRID_MAP']" anchor="BMAP_ANCHOR_TOP_LEFT"></bm-map-type>
       <bm-scale anchor="BMAP_ANCHOR_BOTTOM_LEFT"></bm-scale>
     </baidu-map>
-    <el-card class="tool-window">
+    <!-- <el-card class="tool-window">
       <el-button>画区域</el-button>
-    </el-card>
+    </el-card> -->
   </div>
 </template>
 

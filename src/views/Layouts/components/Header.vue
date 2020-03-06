@@ -3,12 +3,12 @@
     <el-row type="flex" justify="space-between">
       <el-col class="logo-box">
         <span class="logo-area hidden-xs-only">
-          <img :src="logo" class="logo" alt="智控车云 Logo" width="35" />
+          <img :src="logo" class="logo" alt="Gps180 Logo" width="35" />
           <span class="title">GPS管理平台</span>
         </span>
         <div class="hidden-sm-and-up">
           <span class="logo-area sm">
-            <img :src="logo" class="logo" alt="智控车云 Logo" width="35" />
+            <img :src="logo" class="logo" alt="Gps180 Logo" width="35" />
             <span class="button-menu-mobile" @click="drawerStatus = true">
               <span></span>
               <span></span>
@@ -17,7 +17,7 @@
           </span>
           <el-drawer :visible.sync="drawerStatus" :show-close="false" size="50%" direction="ltr" custom-class="menu-drawer" append-to-body>
             <div slot="title" style="text-align: center;">
-              <img :src="logo" class="logo" alt="智控车云 Logo" width="50" />
+              <img :src="logo" class="logo" alt="Gps180 Logo" width="50" />
             </div>
             <el-menu :default-active="currentMenu" @select="handleSelect" background-color="#545c64" text-color="#fff" active-text-color="#ffd04b">
               <template v-for="(menu, index) in menus">

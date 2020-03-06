@@ -8,8 +8,7 @@
         <bm-scale anchor="BMAP_ANCHOR_BOTTOM_LEFT"></bm-scale>
         <bm-marker v-if="polylinePath.length>1" :position="polylinePath[0]" :offset="{width: 0, height: -19}" :icon="icons.startIcon"></bm-marker>
         <bm-marker v-if="polylinePath.length>0 && (polylinePath.length === list.length)" :position="polylinePath[list.length-1]" :offset="{width: 0, height: -19}" :icon="icons.endIcon"></bm-marker>
-        <bm-marker v-if="polylinePath.length !== list.length" :icon="icons.carIcon" :rotation="currentPosition.course" :position="handleTransform(currentPosition.longitude, currentPosition.latitude)" :z-index="1">
-        </bm-marker>
+        <bm-marker v-if="polylinePath.length !== list.length" :icon="icons.carIcon" :rotation="currentPosition.course" :position="handleTransform(currentPosition.longitude, currentPosition.latitude)" :z-index="1"></bm-marker>
         <bm-polyline :path="polylinePath" stroke-color="teal" :stroke-opacity="0.7" :stroke-weight="5" stroke-style="dashed"></bm-polyline>
         <bm-polyline :path="travelPath" stroke-color="teal" :stroke-opacity="0.3" :stroke-weight="8"></bm-polyline>
       </baidu-map>
