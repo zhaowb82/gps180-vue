@@ -22,11 +22,11 @@ const removeToken = () => {
 // 用户权限
 
 let getPermissions = () => {
-  return localStorage.getItem(Permissions)
+  return localStorage.getItem('Permissions')
 }
 
 let setPermissions = (e) => {
-  return localStorage.setItem(Permissions, e)
+  return localStorage.setItem('Permissions', e)
 }
 
 export default {

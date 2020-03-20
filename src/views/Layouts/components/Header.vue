@@ -43,6 +43,9 @@
       <el-col class="tools">
         <ul>
           <li>
+            <span class="user-box"> 你好! {{ username }} </span>
+          </li>
+          <li>
             <el-dropdown trigger="click">
               <div class="dropdown-button">
                 <el-avatar :src="avatar" :size="32" style="vertical-align: middle;margin-right:8px;"></el-avatar>
@@ -131,7 +134,7 @@ export default {
     }
   },
   computed: {
-    ...mapGetters(['menuList']),
+    ...mapGetters(['menuList', 'username']),
     menus() {
       let menus = []
       this.menuList.map((e) => {
@@ -246,6 +249,10 @@ export default {
         display: inline-block;
         font-size: 24px;
         vertical-align: middle;
+        .user-box {
+          font-size: 16px;
+          color: #fff;
+        }
         .el-dropdown {
           display: inline;
           cursor: pointer;
